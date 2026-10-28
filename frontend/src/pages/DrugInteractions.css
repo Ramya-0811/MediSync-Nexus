@@ -1,0 +1,55 @@
+
+.drug-page {
+  padding: 24px 0;
+}
+
+.drug-form,
+.drug-panel {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #e0e5ed;
+  border-radius: 12px;
+  background: var(--card-background, #fff);
+}
+
+.drug-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.drug-form textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d7dce5;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+.drug-form button {
+  margin-top: 14px;
+  padding: 12px 16px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.drug-warning {
+  padding: 14px;
+  border: 1px solid #e4c88d;
+  border-radius: 8px;
+  background: #fffaf0;
+  color: #513c16;
+}
+
+.drug-disclaimer {
+  margin-top: 24px;
+  font-size: 13px;
+}
+
+.drug-panel li {
+  margin: 8px 0;
+  overflow-wrap: anywhere;
+}

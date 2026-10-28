@@ -1,0 +1,96 @@
+
+.arbitration-page {
+  padding: 24px 0;
+}
+
+.arbitration-form,
+.arbitration-result {
+  margin: 20px 0;
+  padding: 22px;
+  border: 1px solid #e0e5ed;
+  border-radius: 12px;
+  background: var(--card-background, #fff);
+}
+
+.arbitration-form label {
+  display: block;
+  margin: 16px 0 8px;
+  font-weight: 600;
+}
+
+.arbitration-form input,
+.arbitration-form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d7dce5;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.arbitration-form textarea {
+  resize: vertical;
+}
+
+.arbitration-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.arbitration-form button {
+  margin-top: 20px;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.arbitration-result {
+  overflow-wrap: anywhere;
+}
+
+.arbitration-disclaimer {
+  margin-top: 24px;
+  font-size: 13px;
+}
+
+@media (max-width: 700px) {
+  .arbitration-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.saved-arbitrations {
+  margin: 24px 0;
+}
+
+.saved-arbitration {
+  margin: 14px 0;
+  padding: 18px;
+  border: 1px solid #e0e5ed;
+  border-radius: 12px;
+  background: var(--card-background, #fff);
+  overflow-wrap: anywhere;
+}
+
+.saved-arbitration h3 {
+  margin-top: 0;
+}
+.arbitration-filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.arbitration-filters input,
+.arbitration-filters select {
+  width: 100%;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #d5dce5;
+  border-radius: 8px;
+  font: inherit;
+  background: white;
+  color: #222;
+}

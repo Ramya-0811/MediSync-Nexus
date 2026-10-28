@@ -1,0 +1,23 @@
+
+Document Title: MediSync Nexus Prototype Safety Policy
+Document ID: MSN-POL-001
+Document Type: Project Safety Policy
+Version: 1.0
+
+Purpose:
+This document defines the safety boundaries of the MediSync Nexus academic research prototype.
+
+Data:
+The current prototype uses simulated patient records. These records are created for software testing and do not represent real patients or verified clinical measurements.
+
+Clinical Limitations:
+The system must not be presented as a diagnostic tool. It must not independently prescribe medication, recommend a treatment plan, or claim clinical safety clearance.
+
+Evidence:
+When the system retrieves reference material, it should preserve the document title, source, and relevant passage so a reviewer can verify the information.
+
+Missing Evidence:
+If no relevant source is retrieved, the system should clearly report that evidence was not found. It must not invent citations or claim that a source supports an answer when it does not.
+
+Human Review:
+Outputs are for academic research and demonstration. They are not for clinical use. A qualified professional must independently review any clinical information before real-world use.

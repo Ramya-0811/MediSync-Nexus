@@ -1,0 +1,33 @@
+{
+  "knowledge_base": "MediSync Nexus Research Knowledge Base",
+  "document_count": 1,
+  "chunk_count": 2,
+  "chunk_size": 700,
+  "chunk_overlap": 100,
+  "chunks": [
+    {
+      "chunk_id": "MSN-POL-001-CHUNK-001",
+      "document_id": "MSN-POL-001",
+      "title": "MediSync Nexus Prototype Safety Policy",
+      "source_name": "MediSync Nexus Project",
+      "source_type": "Internal project policy",
+      "version": "1.0",
+      "verified": false,
+      "file": "prototype_safety.txt",
+      "chunk_index": 1,
+      "text": "Document Title: MediSync Nexus Prototype Safety Policy\nDocument ID: MSN-POL-001\nDocument Type: Project Safety Policy\nVersion: 1.0\n\nPurpose:\nThis document defines the safety boundaries of the MediSync Nexus academic research prototype.\n\nData:\nThe current prototype uses simulated patient records. These records are created for software testing and do not represent real patients or verified clinical measurements.\n\nClinical Limitations:\nThe system must not be presented as a diagnostic tool. It must not independently prescribe medication, recommend a treatment plan, or claim clinical safety clearance.\n\nEvidence:\nWhen the system retrieves reference material, it should preserve the document title,"
+    },
+    {
+      "chunk_id": "MSN-POL-001-CHUNK-002",
+      "document_id": "MSN-POL-001",
+      "title": "MediSync Nexus Prototype Safety Policy",
+      "source_name": "MediSync Nexus Project",
+      "source_type": "Internal project policy",
+      "version": "1.0",
+      "verified": false,
+      "file": "prototype_safety.txt",
+      "chunk_index": 2,
+      "text": "nce.\n\nEvidence:\nWhen the system retrieves reference material, it should preserve the document title, source, and relevant passage so a reviewer can verify the information.\n\nMissing Evidence:\nIf no relevant source is retrieved, the system should clearly report that evidence was not found. It must not invent citations or claim that a source supports an answer when it does not.\n\nHuman Review:\nOutputs are for academic research and demonstration. They are not for clinical use. A qualified professional must independently review any clinical information before real-world use."
+    }
+  ]
+}

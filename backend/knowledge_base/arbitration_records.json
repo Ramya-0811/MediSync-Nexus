@@ -1,0 +1,83 @@
+[
+  {
+    "patient_id": "string",
+    "option_a": "string",
+    "option_b": "string",
+    "review_notes": "string",
+    "record_id": "ARB-20261025042216303050",
+    "created_at": "2026-10-25T04:22:16.303087+00:00",
+    "status": "pending_clinician_review"
+  },
+  {
+    "patient_id": "MSN-001",
+    "option_a": "Simulated review option A",
+    "option_b": "Simulated review option B",
+    "review_notes": "Verify source evidence and safety considerations with a qualified clinician.",
+    "record_id": "ARB-20261025042238528441",
+    "created_at": "2026-10-25T04:22:38.528477+00:00",
+    "status": "pending_clinician_review"
+  },
+  {
+    "patient_id": "MSN-001",
+    "option_a": "Simulated review option A",
+    "option_b": "Simulated review option B",
+    "review_notes": "Verify source evidence and safety considerations with a qualified clinician.",
+    "record_id": "ARB-20261025042239808349",
+    "created_at": "2026-10-25T04:22:39.808395+00:00",
+    "status": "pending_clinician_review"
+  },
+  {
+    "patient_id": "MSN-001",
+    "option_a": "Simulated treatment plan with Medication A. Verify the indication, dosage, allergies, contraindications, and patient-specific risks.",
+    "option_b": "Simulated treatment plan with Medication B. Verify the indication, dosage, interactions, contraindications, and patient-specific risks.",
+    "review_notes": "Compare both simulated options using approved clinical references. Check the synthetic patient's allergies, laboratory observations, current medications, and relevant contraindications. Record evidence citations and uncertainties. Final decision requires qualified clinician review.",
+    "record_id": "ARB-20261025043836793576",
+    "created_at": "2026-10-25T04:38:36.793607+00:00",
+    "status": "pending_clinician_review"
+  },
+  {
+    "patient_id": "MSN-001",
+    "option_a": "Simulated option A",
+    "option_b": "Simulated option B",
+    "review_notes": "Verify evidence citations and safety checks. Clinician review required.",
+    "record_id": "ARB-20261025044258739161",
+    "created_at": "2026-10-25T04:42:58.739196+00:00",
+    "status": "pending_clinician_review"
+  },
+  {
+    "patient_id": "MSN-001",
+    "option_a": "Simulated treatment plan with Medication A. Verify the indication, dosage, allergies, contraindications, and patient-specific risks.",
+    "option_b": "Simulated treatment plan with Medication B. Verify the indication, dosage, interactions, contraindications, and patient-specific risks.",
+    "review_notes": "Compare both simulated options using approved clinical references. Check the synthetic patient's allergies, laboratory observations, current medications, and relevant contraindications. Record evidence citations and uncertainties. Final decision requires qualified clinician review.",
+    "record_id": "ARB-20261025044423348277",
+    "created_at": "2026-10-25T04:44:23.348308+00:00",
+    "status": "pending_clinician_review"
+  },
+  {
+    "patient_id": "MSN-001",
+    "option_a": "Simulated treatment plan with Medication A. Verify the indication, dosage, allergies, contraindications, and patient-specific risks.",
+    "option_b": "Simulated treatment plan with Medication B. Verify the indication, dosage, interactions, contraindications, and patient-specific risks.",
+    "review_notes": "Compare both simulated options using approved clinical references. Check the synthetic patient's allergies, laboratory observations, current medications, and relevant contraindications. Record evidence citations and uncertainties. Final decision requires qualified clinician review.",
+    "record_id": "ARB-20261026152525746415",
+    "created_at": "2026-10-26T15:25:25.746932+00:00",
+    "status": "pending_clinician_review"
+  },
+  {
+    "patient_id": "MSN-002",
+    "option_a": "Simulated option A",
+    "option_b": "Simulated option B",
+    "review_notes": "Verify source evidence and safety considerations with a qualified clinician.",
+    "record_id": "ARB-20261027160614296095",
+    "created_at": "2026-10-27T16:06:14.297555+00:00",
+    "status": "pending_clinician_review"
+  },
+  {
+    "patient_id": "MSN-003",
+    "option_a": "Simulated review option A",
+    "option_b": "Simulated review option B",
+    "review_notes": "Verify source evidence and safety considerations with a qualified clinician",
+    "record_id": "ARB-20261027161422297206",
+    "created_at": "2026-10-27T16:14:22.298116+00:00",
+    "status": "pending_clinician_review"
+  }
+]
